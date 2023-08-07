@@ -7,7 +7,7 @@
 # If your S3 service instance has a different name, or you want a different key
 # name, edit the following two lines.
 #
-# NOTE: This script has been tested with CF CLI v8!
+# NOTE: This script has been tested with CF CLI v8
 
 SERVICE_INSTANCE_NAME="${SERVICE_INSTANCE_NAME:-notify-terraform-state}"
 KEY_NAME="${KEY_NAME:-${SERVICE_INSTANCE_NAME}-ssb-key}"
