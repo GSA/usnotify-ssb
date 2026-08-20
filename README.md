@@ -1,5 +1,9 @@
 # usnotify-ssb
 
+> [!WARNING] Deprecation notice
+>
+> This repository has been archived and dependencies are out of date. If being revived in the future, we recommend starting from https://workshop.cloud.gov/cloud-gov/notifications/usnotify-ssb which has had some updates completed.
+
 Part of [Notify.gov](https://notify.gov/)
 
 The Supplementary Service Broker (SSB) manages the lifecycle of services, filling gaps in [cloud.gov](https://cloud.gov)'s brokered services. The SSB is compliant with the [Open Service Broker API](https://www.openservicebrokerapi.org/) specification. Using this API, the service broker advertises a catalog of service offerings and service plans, and interprets calls for provision (create), bind, unbind, and deprovision (delete). What the broker does with each call can vary between services. In general, `provision` reserves resources on a service and `bind` delivers information to an app necessary for accessing the resource. The reserved resource is called a service instance.
